@@ -1,0 +1,486 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2EBD912620CA7978007BD724 /* YogaLayoutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EBD912520CA7978007BD724 /* YogaLayoutViewController.m */; };
+		2EC6404D20AD78BF008CEB67 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EC6404C20AD78BF008CEB67 /* AppDelegate.m */; };
+		2EC6405020AD78BF008CEB67 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EC6404F20AD78BF008CEB67 /* ViewController.m */; };
+		2EC6405320AD78BF008CEB67 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2EC6405120AD78BF008CEB67 /* Main.storyboard */; };
+		2EC6405520AD78C1008CEB67 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2EC6405420AD78C1008CEB67 /* Assets.xcassets */; };
+		2EC6405820AD78C1008CEB67 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2EC6405620AD78C1008CEB67 /* LaunchScreen.storyboard */; };
+		2EC6405B20AD78C1008CEB67 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EC6405A20AD78C1008CEB67 /* main.m */; };
+		2EC6406A20AD7C55008CEB67 /* YGEnums.c in Sources */ = {isa = PBXBuildFile; fileRef = 2EC6406220AD7C54008CEB67 /* YGEnums.c */; };
+		2EC6406B20AD7C55008CEB67 /* YGNodeList.c in Sources */ = {isa = PBXBuildFile; fileRef = 2EC6406520AD7C54008CEB67 /* YGNodeList.c */; };
+		2EC6406C20AD7C55008CEB67 /* Yoga.c in Sources */ = {isa = PBXBuildFile; fileRef = 2EC6406820AD7C54008CEB67 /* Yoga.c */; };
+		2EC6407520AD7C60008CEB67 /* UIView+Yoga.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EC6407020AD7C60008CEB67 /* UIView+Yoga.m */; };
+		2EC6407620AD7C60008CEB67 /* YGLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EC6407320AD7C60008CEB67 /* YGLayout.m */; };
+		2EC6407C20AD80CA008CEB67 /* NodeTree.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EC6407B20AD80CA008CEB67 /* NodeTree.m */; };
+		2EC640AB20AE6A37008CEB67 /* UIView+YogaLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EC640AA20AE6A37008CEB67 /* UIView+YogaLayout.m */; };
+		2EC640AE20AE6FA7008CEB67 /* CustomView.yoga in Resources */ = {isa = PBXBuildFile; fileRef = 2EC640AC20AE6FA7008CEB67 /* CustomView.yoga */; };
+		2EC640FA20AE831C008CEB67 /* NodeTree+View.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EC640F920AE831C008CEB67 /* NodeTree+View.m */; };
+		2EC640FD20AE86E1008CEB67 /* YGStylePropery.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EC640FC20AE86E1008CEB67 /* YGStylePropery.m */; };
+		2EC6410020AEB9E0008CEB67 /* YogaLayoutEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EC640FF20AEB9E0008CEB67 /* YogaLayoutEngine.m */; };
+		2EC6412920AFB958008CEB67 /* YogaLayoutResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EC6412820AFB958008CEB67 /* YogaLayoutResult.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		04B3C6C694A33CE72187411C /* Pods-YogaLayout.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YogaLayout.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YogaLayout/Pods-YogaLayout.debug.xcconfig"; sourceTree = "<group>"; };
+		2EBD912420CA7978007BD724 /* YogaLayoutViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YogaLayoutViewController.h; sourceTree = "<group>"; };
+		2EBD912520CA7978007BD724 /* YogaLayoutViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YogaLayoutViewController.m; sourceTree = "<group>"; };
+		2EC6404820AD78BF008CEB67 /* YogaLayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YogaLayout.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2EC6404B20AD78BF008CEB67 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2EC6404C20AD78BF008CEB67 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2EC6404E20AD78BF008CEB67 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2EC6404F20AD78BF008CEB67 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2EC6405220AD78BF008CEB67 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2EC6405420AD78C1008CEB67 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2EC6405720AD78C1008CEB67 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2EC6405920AD78C1008CEB67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2EC6405A20AD78C1008CEB67 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2EC6406220AD7C54008CEB67 /* YGEnums.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = YGEnums.c; sourceTree = "<group>"; };
+		2EC6406320AD7C54008CEB67 /* YGEnums.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YGEnums.h; sourceTree = "<group>"; };
+		2EC6406420AD7C54008CEB67 /* YGMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YGMacros.h; sourceTree = "<group>"; };
+		2EC6406520AD7C54008CEB67 /* YGNodeList.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = YGNodeList.c; sourceTree = "<group>"; };
+		2EC6406620AD7C54008CEB67 /* YGNodeList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YGNodeList.h; sourceTree = "<group>"; };
+		2EC6406720AD7C54008CEB67 /* Yoga-internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Yoga-internal.h"; sourceTree = "<group>"; };
+		2EC6406820AD7C54008CEB67 /* Yoga.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Yoga.c; sourceTree = "<group>"; };
+		2EC6406920AD7C54008CEB67 /* Yoga.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Yoga.h; sourceTree = "<group>"; };
+		2EC6406F20AD7C60008CEB67 /* UIView+Yoga.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Yoga.h"; sourceTree = "<group>"; };
+		2EC6407020AD7C60008CEB67 /* UIView+Yoga.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Yoga.m"; sourceTree = "<group>"; };
+		2EC6407120AD7C60008CEB67 /* YGLayout+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "YGLayout+Private.h"; sourceTree = "<group>"; };
+		2EC6407220AD7C60008CEB67 /* YGLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YGLayout.h; sourceTree = "<group>"; };
+		2EC6407320AD7C60008CEB67 /* YGLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YGLayout.m; sourceTree = "<group>"; };
+		2EC6407A20AD80CA008CEB67 /* NodeTree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NodeTree.h; sourceTree = "<group>"; };
+		2EC6407B20AD80CA008CEB67 /* NodeTree.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NodeTree.m; sourceTree = "<group>"; };
+		2EC640A920AE6A37008CEB67 /* UIView+YogaLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+YogaLayout.h"; sourceTree = "<group>"; };
+		2EC640AA20AE6A37008CEB67 /* UIView+YogaLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+YogaLayout.m"; sourceTree = "<group>"; };
+		2EC640AC20AE6FA7008CEB67 /* CustomView.yoga */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = CustomView.yoga; sourceTree = "<group>"; };
+		2EC640F820AE831C008CEB67 /* NodeTree+View.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NodeTree+View.h"; sourceTree = "<group>"; };
+		2EC640F920AE831C008CEB67 /* NodeTree+View.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NodeTree+View.m"; sourceTree = "<group>"; };
+		2EC640FB20AE86E1008CEB67 /* YGStylePropery.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YGStylePropery.h; sourceTree = "<group>"; };
+		2EC640FC20AE86E1008CEB67 /* YGStylePropery.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YGStylePropery.m; sourceTree = "<group>"; };
+		2EC640FE20AEB9E0008CEB67 /* YogaLayoutEngine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YogaLayoutEngine.h; sourceTree = "<group>"; };
+		2EC640FF20AEB9E0008CEB67 /* YogaLayoutEngine.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YogaLayoutEngine.m; sourceTree = "<group>"; };
+		2EC6412720AFB958008CEB67 /* YogaLayoutResult.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YogaLayoutResult.h; sourceTree = "<group>"; };
+		2EC6412820AFB958008CEB67 /* YogaLayoutResult.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YogaLayoutResult.m; sourceTree = "<group>"; };
+		B7A18F8058CDC609523F76C8 /* Pods-YogaLayout.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YogaLayout.release.xcconfig"; path = "Pods/Target Support Files/Pods-YogaLayout/Pods-YogaLayout.release.xcconfig"; sourceTree = "<group>"; };
+		CDD6463F85ACE644478D79D6 /* libPods-YogaLayout.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YogaLayout.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2EC6404520AD78BF008CEB67 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		13F902ABC19ED69CD234346A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CDD6463F85ACE644478D79D6 /* libPods-YogaLayout.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		25003B7DFCC60FDCA8AB9CF4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				04B3C6C694A33CE72187411C /* Pods-YogaLayout.debug.xcconfig */,
+				B7A18F8058CDC609523F76C8 /* Pods-YogaLayout.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		2EBD912820CA8351007BD724 /* YogaLayout */ = {
+			isa = PBXGroup;
+			children = (
+				2EC6406D20AD7C60008CEB67 /* YogaKit */,
+				2EC6406120AD7C54008CEB67 /* yoga */,
+				2EC6410220AEBD83008CEB67 /* YogaLayout */,
+			);
+			path = YogaLayout;
+			sourceTree = "<group>";
+		};
+		2EC6403F20AD78BF008CEB67 = {
+			isa = PBXGroup;
+			children = (
+				2EC6404A20AD78BF008CEB67 /* YogaLayout */,
+				2EC6404920AD78BF008CEB67 /* Products */,
+				25003B7DFCC60FDCA8AB9CF4 /* Pods */,
+				13F902ABC19ED69CD234346A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2EC6404920AD78BF008CEB67 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2EC6404820AD78BF008CEB67 /* YogaLayout.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2EC6404A20AD78BF008CEB67 /* YogaLayout */ = {
+			isa = PBXGroup;
+			children = (
+				2EBD912820CA8351007BD724 /* YogaLayout */,
+				2EC6404E20AD78BF008CEB67 /* ViewController.h */,
+				2EC6404F20AD78BF008CEB67 /* ViewController.m */,
+				2EC640AC20AE6FA7008CEB67 /* CustomView.yoga */,
+				2EC6404B20AD78BF008CEB67 /* AppDelegate.h */,
+				2EC6404C20AD78BF008CEB67 /* AppDelegate.m */,
+				2EC6405120AD78BF008CEB67 /* Main.storyboard */,
+				2EC6405420AD78C1008CEB67 /* Assets.xcassets */,
+				2EC6405620AD78C1008CEB67 /* LaunchScreen.storyboard */,
+				2EC6405920AD78C1008CEB67 /* Info.plist */,
+				2EC6405A20AD78C1008CEB67 /* main.m */,
+			);
+			path = YogaLayout;
+			sourceTree = "<group>";
+		};
+		2EC6406120AD7C54008CEB67 /* yoga */ = {
+			isa = PBXGroup;
+			children = (
+				2EC6406220AD7C54008CEB67 /* YGEnums.c */,
+				2EC6406320AD7C54008CEB67 /* YGEnums.h */,
+				2EC6406420AD7C54008CEB67 /* YGMacros.h */,
+				2EC6406520AD7C54008CEB67 /* YGNodeList.c */,
+				2EC6406620AD7C54008CEB67 /* YGNodeList.h */,
+				2EC6406720AD7C54008CEB67 /* Yoga-internal.h */,
+				2EC6406820AD7C54008CEB67 /* Yoga.c */,
+				2EC6406920AD7C54008CEB67 /* Yoga.h */,
+			);
+			path = yoga;
+			sourceTree = "<group>";
+		};
+		2EC6406D20AD7C60008CEB67 /* YogaKit */ = {
+			isa = PBXGroup;
+			children = (
+				2EC6406E20AD7C60008CEB67 /* Source */,
+			);
+			path = YogaKit;
+			sourceTree = "<group>";
+		};
+		2EC6406E20AD7C60008CEB67 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				2EC6406F20AD7C60008CEB67 /* UIView+Yoga.h */,
+				2EC6407020AD7C60008CEB67 /* UIView+Yoga.m */,
+				2EC6407120AD7C60008CEB67 /* YGLayout+Private.h */,
+				2EC6407220AD7C60008CEB67 /* YGLayout.h */,
+				2EC6407320AD7C60008CEB67 /* YGLayout.m */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		2EC6410220AEBD83008CEB67 /* YogaLayout */ = {
+			isa = PBXGroup;
+			children = (
+				2EC6407A20AD80CA008CEB67 /* NodeTree.h */,
+				2EC6407B20AD80CA008CEB67 /* NodeTree.m */,
+				2EC640F820AE831C008CEB67 /* NodeTree+View.h */,
+				2EC640F920AE831C008CEB67 /* NodeTree+View.m */,
+				2EC640A920AE6A37008CEB67 /* UIView+YogaLayout.h */,
+				2EC640AA20AE6A37008CEB67 /* UIView+YogaLayout.m */,
+				2EC640FB20AE86E1008CEB67 /* YGStylePropery.h */,
+				2EC640FC20AE86E1008CEB67 /* YGStylePropery.m */,
+				2EC640FE20AEB9E0008CEB67 /* YogaLayoutEngine.h */,
+				2EC640FF20AEB9E0008CEB67 /* YogaLayoutEngine.m */,
+				2EC6412720AFB958008CEB67 /* YogaLayoutResult.h */,
+				2EC6412820AFB958008CEB67 /* YogaLayoutResult.m */,
+				2EBD912420CA7978007BD724 /* YogaLayoutViewController.h */,
+				2EBD912520CA7978007BD724 /* YogaLayoutViewController.m */,
+			);
+			path = YogaLayout;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2EC6404720AD78BF008CEB67 /* YogaLayout */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2EC6405E20AD78C1008CEB67 /* Build configuration list for PBXNativeTarget "YogaLayout" */;
+			buildPhases = (
+				2EC6404420AD78BF008CEB67 /* Sources */,
+				2EC6404520AD78BF008CEB67 /* Frameworks */,
+				2EC6404620AD78BF008CEB67 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YogaLayout;
+			productName = YogaLayout;
+			productReference = 2EC6404820AD78BF008CEB67 /* YogaLayout.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2EC6404020AD78BF008CEB67 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Dan Lee";
+				TargetAttributes = {
+					2EC6404720AD78BF008CEB67 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+				};
+			};
+			buildConfigurationList = 2EC6404320AD78BF008CEB67 /* Build configuration list for PBXProject "YogaLayout" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2EC6403F20AD78BF008CEB67;
+			productRefGroup = 2EC6404920AD78BF008CEB67 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2EC6404720AD78BF008CEB67 /* YogaLayout */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2EC6404620AD78BF008CEB67 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EC6405820AD78C1008CEB67 /* LaunchScreen.storyboard in Resources */,
+				2EC6405520AD78C1008CEB67 /* Assets.xcassets in Resources */,
+				2EC6405320AD78BF008CEB67 /* Main.storyboard in Resources */,
+				2EC640AE20AE6FA7008CEB67 /* CustomView.yoga in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2EC6404420AD78BF008CEB67 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EBD912620CA7978007BD724 /* YogaLayoutViewController.m in Sources */,
+				2EC6405020AD78BF008CEB67 /* ViewController.m in Sources */,
+				2EC640FD20AE86E1008CEB67 /* YGStylePropery.m in Sources */,
+				2EC6405B20AD78C1008CEB67 /* main.m in Sources */,
+				2EC6406A20AD7C55008CEB67 /* YGEnums.c in Sources */,
+				2EC6407C20AD80CA008CEB67 /* NodeTree.m in Sources */,
+				2EC640FA20AE831C008CEB67 /* NodeTree+View.m in Sources */,
+				2EC6410020AEB9E0008CEB67 /* YogaLayoutEngine.m in Sources */,
+				2EC640AB20AE6A37008CEB67 /* UIView+YogaLayout.m in Sources */,
+				2EC6407620AD7C60008CEB67 /* YGLayout.m in Sources */,
+				2EC6406C20AD7C55008CEB67 /* Yoga.c in Sources */,
+				2EC6412920AFB958008CEB67 /* YogaLayoutResult.m in Sources */,
+				2EC6406B20AD7C55008CEB67 /* YGNodeList.c in Sources */,
+				2EC6407520AD7C60008CEB67 /* UIView+Yoga.m in Sources */,
+				2EC6404D20AD78BF008CEB67 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2EC6405120AD78BF008CEB67 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2EC6405220AD78BF008CEB67 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2EC6405620AD78C1008CEB67 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2EC6405720AD78C1008CEB67 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2EC6405C20AD78C1008CEB67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2EC6405D20AD78C1008CEB67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2EC6405F20AD78C1008CEB67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04B3C6C694A33CE72187411C /* Pods-YogaLayout.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = YogaLayout/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.danlee.yogaLayout.YogaLayout;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2EC6406020AD78C1008CEB67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7A18F8058CDC609523F76C8 /* Pods-YogaLayout.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = YogaLayout/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.danlee.yogaLayout.YogaLayout;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2EC6404320AD78BF008CEB67 /* Build configuration list for PBXProject "YogaLayout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2EC6405C20AD78C1008CEB67 /* Debug */,
+				2EC6405D20AD78C1008CEB67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2EC6405E20AD78C1008CEB67 /* Build configuration list for PBXNativeTarget "YogaLayout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2EC6405F20AD78C1008CEB67 /* Debug */,
+				2EC6406020AD78C1008CEB67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2EC6404020AD78BF008CEB67 /* Project object */;
+}

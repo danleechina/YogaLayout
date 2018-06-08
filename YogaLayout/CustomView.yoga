@@ -1,0 +1,11 @@
+<UIView id="rootView" style="justifyContent:center;alignItems: center;width:@ScreenWidth / 2 * @ScreenScale; height:@ScreenHeight/2">
+
+    <UIView id="firstView" style="justifyContent:center;alignItems: center; height: 50%; width: 100%">
+
+        <UIView id="firstInnerView" style="justifyContent:center;alignItems:center; height: 50%; width: 100%" />
+
+    </UIView>
+
+    <UIButton id="secondView" style="height: 20%; width: 100%"/>
+
+</UIView>
